@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Paste from './components/Paste'
 import Viewpaste from './components/Viewpaste'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './responsive.css'
+import './Responsive.css'
 
 const router= createBrowserRouter(
   [
