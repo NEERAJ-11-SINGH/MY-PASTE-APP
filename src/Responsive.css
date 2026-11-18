@@ -1,0 +1,121 @@
+
+/* Mobile Responsive Design - 480px */
+
+@media screen and (max-width: 480px) {
+
+  /* NAVBAR */
+  .navbar {
+    justify-content: center;
+    gap: 25px;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  /* HOME PAGE */
+  .home-form-row {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 12px;
+  }
+
+  .home-title-input {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .home-create-btn {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+
+  .home-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 300px;
+    max-height: 60vh;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  /* PASTE PAGE */
+  .paste-search {
+    width: 95%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .paste-container {
+    padding: 10px !important;
+  }
+
+  .paste-card {
+    padding: 10px !important;
+  }
+
+  .paste-card-layout {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 12px;
+  }
+
+  /* Buttons at top right */
+  .paste-card-side {
+    order: -1;
+    width: 100%;
+    align-items: flex-end;
+    gap: 8px;
+  }
+
+  .paste-card-buttons {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .paste-card-buttons button {
+    padding: 6px 8px;
+  }
+
+  .paste-card-content {
+    order: 1;
+    width: 100%;
+  }
+
+  .paste-card-content h1 {
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 5px;
+  }
+
+  .paste-card-content p {
+    font-size: 13px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .paste-card-date {
+    font-size: 11px;
+  }
+
+  /* VIEW PASTE PAGE */
+  .view-title-row {
+    padding: 0 12px;
+  }
+
+  .view-title-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  .view-textarea {
+    width: 100%;
+    min-width: 0 !important;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+}
